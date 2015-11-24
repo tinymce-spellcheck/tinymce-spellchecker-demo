@@ -2,7 +2,10 @@
 
 Source Code &amp; Examples for http://tinymcespellcheck.com/
 
-The repo contains source code and examples for using the "tinymce spellchecker" plugin my nanospell.
+
+[![TimyMce Spellcheck Plugin Screenshot](Screenshot.png)](http://tinymcespellcheck.com/)
+
+The repo contains source code and examples for using the "tinymce spellchecker" plugin by nanospell.
 
 
 This allows for us to grow a knowledges base for different installation types for TinyMce users who want to install domain wide spellchecking to Tinymce Editor. 
