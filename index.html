@@ -1,35 +1,21 @@
 <html>
-
-<head>
-</head>
-
 <body>
 <script src="http://tinymce.cachefly.net/4.0/tinymce.min.js"></script>
 
 <textarea>  
-	
-Hello world, we shold probbably spelcheck tis TinyMce Textarea....
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Whoah... that was easy.&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;
-Cntextual, right click spellchecking in TinyMCE on almost any web platform, and almost any browser.
-&lt;br&gt;
-Scoore!
+	Hello world, we shold probbably spelchecker tihs TinyMce Textarea....
 </textarea>
 
-<script>
-var mypath = document.URL.substr(0,document.URL.lastIndexOf('/'));
-// get the oath of this page, to make life easier.
+	<script>
+	var mypath = document.URL.substr(0,document.URL.lastIndexOf('/'))+"/nanospell/plugin.js";
+	// get the path of this page, to make life easier.
 
-tinymce.init({
-	selector:'textarea',
-	external_plugins: {"nanospell": mypath+"/nanospell/plugin.js"},
-	nanospell_server: "php" // choose "php" "asp" "asp.net" or "java"
-	}); 
-</script>
-	
-	
+	tinymce.init({
+		selector:'textarea',
+		external_plugins: {"nanospell": mypath},
+		nanospell_server: "php" // choose "php" "asp" "asp.net" or "java"
+		}); 
+	</script>
 
 </body>
 </html>
