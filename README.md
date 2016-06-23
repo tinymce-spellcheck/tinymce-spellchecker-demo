@@ -1,4 +1,4 @@
-# TinyMce Spellchecker Examples.
+# TinyMce Spellchecker Demo
 
 Source Code &amp; Examples for http://tinymcespellcheck.com/
 
